@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company-HTML Bootstrap theme</title>
+    <title>MediWay</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,10 +40,9 @@
 						<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">
 								<li role="presentation"><a href="index.html">Home</a></li>
-								<li role="presentation"><a href="about.html">About Us</a></li>
-								<li role="presentation"><a href="services.html">Services</a></li>								
-								<li role="presentation"><a href="portfolio.html" class="active">Portfolio</a></li>
-								<li role="presentation"><a href="blog.html">Blog</a></li>
+								<li role="presentation"><a href="hospitals.html" class="active">Hospitals</a></li>
+                                <li role="presentation"><a href="services.html">Services</a></li>
+                                <li role="presentation"><a href="about.html">About Us</a></li>
 								<li role="presentation"><a href="contact.html">Contact</a></li>						
 							</ul>
 						</div>
@@ -63,128 +62,245 @@
 	</div>
 	
 	<section id="portfolio">	
-        <div class="container">
-            <div class="center">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt</p>
-            </div>
+            <style>
+* {
+    box-sizing: border-box;
+}
 
-            <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Creative</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".html">Photography</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>
-            </ul><!--/#portfolio-filter-->
-		</div>
-		<div class="container">
-            <div class="">
-                <div class="portfolio-items">
-                    <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>
-                    </div><!--/.portfolio-item-->
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}
 
-                    <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
 
-                    <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>        
-                    </div><!--/.portfolio-item-->
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
 
-                    <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>           
-                    </div><!--/.portfolio-item-->
-          
-                    <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>      
-                    </div><!--/.portfolio-item-->
+.row {
+    margin: 10px -16px;
+}
 
-                    <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>         
-                    </div><!--/.portfolio-item-->
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
 
-                    <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+}
 
-                    <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
-                </div>
-            </div>
-        </div>
-    </section><!--/#portfolio-item-->
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#666 ;
+}
+
+.btn.active {
+  background-color: #666;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+<hr>
+
+<h2>Hospitals</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')">Recent</button>
+  <button class="btn" onclick="filterSelection('nature')"> Allopathy</button>
+  <button class="btn" onclick="filterSelection('cars')"> Homeopathy</button>
+  <button class="btn" onclick="filterSelection('people')"> Ayurveda</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+     <a href="https://www.vaidam.com/best-cardiac-hospitals-in-india">
+      <img src="images/Ophthalmology.jpg" alt="Mountains" style="width:100%">
+     </a>
+      <h4>Opthalmology</h4>
+      <p>The department of ophthalmology provides a well-equipped facility for the complete examination, diagnosis, and treatment (both medically and surgically) of all ocular diseases in both adult and paediatric patients. The department is comprised of a dedicated and well-qualified team of healthcare professionals with excellent support from nursing and administrative staff.</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <a href="https://youmeandtrends.com/top-best-eye-hospitals-india/">
+    <img src="images/cardiology.jpg" alt="Lights" style="width:100%">
+    </a>
+      <h4>Cardiology</h4>
+      <p>Rapid changes in the lifestyles of developing economies have resulted in an unprecedented epidemic of heart disease. Along with preventive measures that involve healthcare planning, public education, and lifestyle changes, facilities to take care of the immediate consequences of heart disease have become the need of the day.At MediWay,you can contact the best heart specialist hospital in kerala among the listed heart hospitals.
+
+</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <a href="https://essencz.com/piyalis14/top-10-best-gynecologists-india/">
+    <img src="images/gynaecology.jpg" alt="Nature" style="width:100%">
+    </a>
+      <h4>Gynaecology</h4>
+      <p>The Obstetrics and Gynaecology Department provides modern comprehensive diagnostic and treatment modalities in a caring environment for women throughout all seasons of life. Our specialised medical team offers advanced maternity services for normal and high risk pregnancies, postpartum and family planning services, infertility screening and treatments, and all endoscopic gynaecological operations in addition to conventional gynaecology surgeries and medical therapies.</p>
+    </div>
+  </div>
+  
+  <div class="column cars">
+    <div class="content">
+      <a href="https://www.credihealth.com/doctors/india/asthma">
+      <img src="images/asthma.jpg" alt="Car" style="width:100%">
+      </a>
+      <h4>Asthma</h4>
+      <p>Asthma is a common long-term inflammatory disease of the airways of the lungs. It is characterized by variable and recurring symptoms, reversible airflow obstruction, and bronchospasm. Symptoms include episodes of wheezing, coughing, chest tightness, and shortness of breath.
+</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+        <a href="https://www.medifee.com/list/best-hospitals-diabetes">
+        <img src="images/diabetes.jpg" alt="Car" style="width:100%">
+      </a>
+      <h4>Diabetes</h4>
+      <p>Diabetes, often referred to by doctors as diabetes mellitus, describes a group of metabolic diseases in which the person has high blood glucose (blood sugar), either because insulin production is inadequate, or because the body's cells do not respond properly to insulin, or both.
+</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+        <a href="http://www.medworldindia.com/thyroidectomy.php">
+    <img src="images/thyroid.jpg" alt="Car" style="width:100%">
+      </a>
+      <h4>Thyroid</h4>
+      <p>Thyroid disease is a common problem that can cause symptoms because of over- or under-function of the thyroid gland. The thyroid gland is an essential organ for producing thyroid hormones, which maintain are body metabolism. The thyroid gland is located in the front of the neck below the Adam's apple.
+
+</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+        <a href="https://india.curejoy.com/content/virechana-panchakarma-ayurvedic-detox/">
+      <img src="images/virechana.jpg" alt="Car" style="width:100%">
+  </a>
+      <h4>Virechana</h4>
+      <p> Virechana, or purgation therapy which removes excess Pitta from the body and purifies the blood to treat the problems of skin rashes, acne, pimples, inflammation, biliary vomiting, Jaundice, digestive disorders, headache and certain gynaecological disorders. The procedure involves oleation, fomentation and emesis followed by a medicated steam bath every day for 3 days along with a light and warm diet.</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+        <a href="http://www.punarnava.net/">
+    <img src="images/Panchakarma.jpg" alt="Car" style="width:100%">
+</a>
+      <h4>Panchakarma</h4>
+      <p> It  involves five therapeutic treatment methods that are used to purify the body and remove toxins from the system. It is equally effective in case of both healthy and unhealthy individuals. it has been designed as a treatment method based on medicine and diet. This procedure follows five steps for removing the deep-seated impurities from the body and balances the Doshas – the forces that rule all biological functions. 
+</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+        <a href="https://www.quora.com/Where-is-the-best-Ayurveda-treatment-in-India">
+    <img src="images/kizhi.jpg" alt="Car" style="width:100%">
+</a>
+      <h4>Kizhi</h4>
+      <p>Kizhi is yet another purifying and rejuvenating ayurvedic treatment that heals the mind and body. Kizhi involves tying up of heated oils, herbs and powders into small muslin bags or “Potli” that are placed on different body parts using varying degree of pressure with a special focus on the nerve points. This is followed by a healing massage done using fingers and palms of the hands. The fingers and palms apply controlled pressure on specific areas that help in treating various ailments.
+</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+            
+    </section><!--/#portfolio-item--> 
 	
 
 	<footer>
@@ -204,7 +320,7 @@
 				
 				<div class="col-md-4 col-md-offset-4">
 					<div class="copyright">
-						&copy; June  2015 by <a target="_blank" href="http://bootstraptaste.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">Bootstrap Themes</a>. All Rights Reserved.
+						&copy; June  2015 by <a target="_blank" href="http://bootstraptaste.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">MediWay</a>. All Rights Reserved.
 					</div>
                     <!-- 
                         All links in the footer should remain intact. 
